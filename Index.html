@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navyuu, Please Forgive Me 💖</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.pexels.com/photos/1028726/pexels-photo-1028726.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    nav {
+      background-color: rgba(0,0,0,0.6);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 1em;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+    nav a {
+      text-decoration: none;
+      color: #ff69b4;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      transform: scale(1.1);
+    }
+    section {
+      min-height: 100vh;
+      padding: 3em 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      background-color: rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      color: #ffb6c1;
+    }
+    p {
+      font-size: 1.3em;
+      line-height: 1.6;
+    }
+    .shayari, .message {
+      background: rgba(255,255,255,0.2);
+      padding: 1.5em;
+      border-radius: 15px;
+      margin: 1em auto;
+      max-width: 600px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      animation: fadeInUp 1s ease forwards;
+    }
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .hearts {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      pointer-events: none;
+    }
+    .heart {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      animation: float 6s linear infinite;
+    }
+    @keyframes float {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh) scale(0.5);
+        opacity: 0;
+      }
+    }
+    footer {
+      padding: 2em;
+      text-align: center;
+      background-color: rgba(0,0,0,0.6);
+      color: #ffb6c1;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">🏠 Home</a>
+    <a href="#shayari">📝 Shayari</a>
+    <a href="#messages">💌 Messages</a>
+    <a href="#memories">📸 Memories</a>
+  </nav>
+
+  <section id="home">
+    <h1>Navyuu... Mujhe Maaf Kar Do! 🙏💖</h1>
+    <p>Mujhe pata hai maine time nahi diya... lekin tumhari yaadon ne kabhi mera saath nahi chhoda. 🥺</p>
+    <div class="shayari">
+      <p>**"Har pal yaad aate ho tum,<br>
+      Har lamha bas tumhe chaahte hain hum...<br>
+      Galti ho gayi toh dil se sorry,<br>
+      Navyuu, please maan jao hum!"** ❤️</p>
+    </div>
+  </section>
+
+  <section id="shayari">
+    <h1>Tere Naam Shayariyan 💕</h1>
+    <div class="shayari">
+      <p>**"Udaasi ke lamhon mein bhi, tu muskurahat thi,<br>
+      Khamoshi ke pal mein bhi, tu ek baat thi..."** 🌙</p>
+    </div>
+    <div class="shayari">
+      <p>**"Tu naraz ho toh sab kuch adhoora lagta hai,<br>
+      Tu khush ho toh har pal poora lagta hai!"** 😊</p>
+    </div>
+    <div class="shayari">
+      <p>**"Teri dosti meri jaan hai,<br>
+      Tere bina sab kuch bejaan hai..."** 💔</p>
+    </div>
+  </section>
+
+  <section id="messages">
+    <h1>Text Messages for You 💌</h1>
+    <div class="message">
+      <p>Hey Navyuu... mujhe pata hai maine galti ki... lekin tumhare bina kuch bhi accha nahi lagta! 😔</p>
+    </div>
+    <div class="message">
+      <p>Main jaanta hoon maine ignore kiya, lekin dil se ignore kabhi nahi kiya... Please forgive me na yaar! 🥺</p>
+    </div>
+    <div class="message">
+      <p>Tumhare saath har baat special thi... aur ab wo baatein yaad banke rulati hain... Mujhe ek aur moka do? 😢</p>
+    </div>
+  </section>
+
+  <section id="memories">
+    <h1>Let's Make New Memories? 📸</h1>
+    <p>Tumse milke duniya haseen lagi thi... Tumhare bina sab kuch suna suna hai... 😞</p>
+    <div class="shayari">
+      <p>**"Ek baar muskura do na fir se,<br>
+      Ek baar gale laga lo na fir se..."** 🤗</p>
+    </div>
+    <p style="margin-top:2em;font-weight:bold;font-size:1.5em;">Tum maan jao na please... 🤧❤️</p>
+  </section>
+
+  <footer>
+    <p>Designed with ❤️ for my Navyuu – Please forgive me! 🙏</p>
+  </footer>
+
+  <div class="hearts"></div>
+
+  <script>
+    const heartsContainer = document.querySelector('.hearts');
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heart.innerHTML = '❤️';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = 3 + Math.random() * 3 + 's';
+      heartsContainer.appendChild(heart);
+      setTimeout(() => {
+        heart.remove();
+      }, 6000);
+    }
+    setInterval(createHeart, 300);
+  </script>
+</body>
+</html>
